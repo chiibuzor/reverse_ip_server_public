@@ -1,8 +1,12 @@
 name: reverse_IP_server CI
 on: 
   push: 
-    branches: [ "main" ]
-  
+    branches: 
+      - '**'
+  pull_request:
+    branches: 
+      - '**'
+      
 jobs:
   reverse_IP_server:
    
