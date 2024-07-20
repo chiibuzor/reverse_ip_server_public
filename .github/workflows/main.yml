@@ -5,8 +5,7 @@ on:
       - '**'
   pull_request:
     branches: 
-      - '**'
-      
+      - '**'      
 jobs:
   reverse_IP_server:
    
