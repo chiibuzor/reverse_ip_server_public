@@ -4,6 +4,7 @@ FROM python:3.8-slim
 # Set the working directory in the container
 WORKDIR /app
 
+
 # Create a new user 'appuser' with UID/GID 1000
 RUN groupadd -r appuser && useradd -r -g appuser -u 1000 appuser
 
